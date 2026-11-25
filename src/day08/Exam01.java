@@ -47,7 +47,7 @@ public class Exam01 {
 		}
 		int i = 0;
 		while(i < arr.length) {
-			int random = makeRandom2(1, 10);			
+			int random = makeRandom2(1, 45);			
 			if(!isContains(arr, random)) {
 				arr[i] = random;
 				i++;

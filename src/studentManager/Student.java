@@ -1,6 +1,8 @@
 package studentManager;
 
+import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.List;
 
 public class Student {
 	// 멤버변수 : 학번(기본키), 이름, 전화번호, 생년월일, 주소, 수강과목[] (Subject[])
@@ -11,6 +13,7 @@ public class Student {
 	private String studentAddress;
 	// 학생 1명의 수강 신청 목록 배열
 	private Subject[] course;
+	//private List<Subject> course2 = new ArrayList<Subject>();
 	private int index; // 배열의 index
 	
 	// 생성자
